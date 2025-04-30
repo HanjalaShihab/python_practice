@@ -20,6 +20,16 @@ else:
     
     
 
+###
+num = (input("Enter a number: "))   # we can use int(input(" ")) for integer input.Basically we can specify the data type of input
+num = int(num)
+
+if num > 0:
+    print(num ,"is Positive number")
+elif num == 0:
+    print("zero")
+else:
+    print(num ,"is negative number")
 
 
 
