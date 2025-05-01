@@ -80,3 +80,25 @@ fruits = ["apple", "banana", "cherry"]
 for i in adj:
     for j in fruits:
         print(i, j)
+        
+        
+        
+
+#---
+expenses = [2000, 4000, 5000, 5500]
+months = ["January", "February", "March", "April"]
+for i in range(len(expenses)):
+    print("In", months[i], "I spent", expenses[i], "dollars.")
+    
+    
+
+expenses = [2000, 4000, 5000, 5500]
+months = 1
+for i in expenses:
+    print("Month ", months, " Expense: ", i)
+    months += 1
+    
+
+expenses = [2000, 4000, 5000, 5500]
+for i in range(len(expenses)):       #we use range() function to get the index of a list
+    print("Month ", i +1 , " Expense: ", expenses[i] )
