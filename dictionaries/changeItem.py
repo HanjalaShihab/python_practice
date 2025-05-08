@@ -11,6 +11,7 @@ print(dictionary)
 #using the update() method:
 
 dictionary.update({"third": "abar jiggasha korle mair dibo"})
+dictionary.update({"fourth": "asholei kichu hoy nai"})  #new key with value
 
 print(dictionary)
 
