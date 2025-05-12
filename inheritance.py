@@ -48,7 +48,7 @@ class parent:
 class child(parent):
     def __init__(self, fname, lname, birthYear):
         super().__init__(fname, lname)
-        self.birthYear = birthYear
+        self.birthYear = birthYear  #or we could directly declare the year like self.birhtYear = 2001 without the birthYear parameter
         
     def printDetails(self):
         print("Name: ", self.fname, self.lname , ",was born in", self.birthYear)
