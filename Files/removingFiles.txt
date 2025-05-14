@@ -1,0 +1,18 @@
+to remove files we have to import the os module
+
+- import os
+
+os.remove("demoFile.txt")
+
+
+#to avoid getting error we can check if the file exists:
+import os
+if os.path.exists("demoFile.txt"):
+   os.remove("demoFile.txt")
+else:
+   print("File not found")
+
+
+**to remove an entire folder which doesn't contain any files:
+import os
+os.rmdir("foldername")
