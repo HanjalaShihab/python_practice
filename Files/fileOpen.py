@@ -1,7 +1,9 @@
-f = open("demofile.txt")
+f = open("demoFile.txt")
 
 #the code above is the same as:
-f = open("demofile.txt", "rt")
+f = open("demoFile.txt", "rt")
 
+content = f.read()
 
-#in that case of the above code, there is no file existing name demofile.txt.So a fileerror will be thrown.
+print(content)
+
